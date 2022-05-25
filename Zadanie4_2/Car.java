@@ -1,6 +1,6 @@
 package Zadanie4_2;
 
-public class Car {
+public class Car{
 
     public int speed;
     public double regularPrice;

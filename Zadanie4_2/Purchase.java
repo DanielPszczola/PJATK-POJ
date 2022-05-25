@@ -1,11 +1,14 @@
 package Zadanie4_2;
 
-public class Purchase {
-    /*
-    public String getPurchaseInfo(){
+public interface Purchase {
 
+    public static String getPurchaseInfo(){
 
-        System.out.println("nothing int here now");
+        return Thread.currentThread().getStackTrace()[2].getClassName();
+
     }
-    */
+
+
+
+
 }
