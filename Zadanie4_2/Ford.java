@@ -24,4 +24,9 @@ public class Ford extends Car implements Purchase{
 
     }
 
+    @Override
+    public String getPurchaseInfo() {
+        String name = "Ford: ";
+        return name;
+    }
 }

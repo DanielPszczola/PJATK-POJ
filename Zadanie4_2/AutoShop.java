@@ -14,13 +14,13 @@ public class AutoShop {
 
         Truck T1 = new Truck(200, 500000, "gold", 5000);
 
-        System.out.println("Sedan: "+ S1.getSalePrice(S1.length, S1.regularPrice));
+        System.out.println(S1.getPurchaseInfo() + S1.getSalePrice(S1.length, S1.regularPrice));
 
-        System.out.println("Ford: " + F1.getSalePrice(F1.manufacturerDiscount, F1.regularPrice));
+        System.out.println(F1.getPurchaseInfo() + F1.getSalePrice(F1.manufacturerDiscount, F1.regularPrice));
 
-        System.out.println("Ford: " + F2.getSalePrice(F2.manufacturerDiscount, F2.regularPrice));
+        System.out.println(F2.getPurchaseInfo() + F2.getSalePrice(F2.manufacturerDiscount, F2.regularPrice));
 
-        System.out.println("Truck: " + T1.getSalePrice(T1.weight, T1.regularPrice));
+        System.out.println(T1.getPurchaseInfo() + T1.getSalePrice(T1.weight, T1.regularPrice));
 
     }
 

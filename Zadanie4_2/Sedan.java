@@ -29,5 +29,10 @@ public class Sedan extends Car implements Purchase{
         }
 
     }
+    @Override
+    public String getPurchaseInfo() {
+        String name = "Sedan: ";
+        return name;
+    }
 
 }
