@@ -40,9 +40,9 @@ public class main {
 
 
 
-        System.out.println("Minivan potrzebuje " + HmFuel(miniVan.lkm,Distance) + "litrow paliwa");
+        System.out.println("Minivan potrzebuje " + HmFuel(miniVan.lkm,Distance) + " litrow paliwa");
 
-        System.out.println("Minivan potrzebuje " + HmFuel(sportsCar.lkm,Distance) + "litrow paliwa");
+        System.out.println("Minivan potrzebuje " + HmFuel(sportsCar.lkm,Distance) + " litrow paliwa");
 
 
     }
