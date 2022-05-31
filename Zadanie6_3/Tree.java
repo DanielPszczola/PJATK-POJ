@@ -108,9 +108,5 @@ public class Tree {
             System.out.println(tree2.contains(element) ? "Tak" : "Nie");
         }
 
-
-
-
-
     }
 }
